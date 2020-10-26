@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FidgetTool" customModule="focus_friend" customModuleProvider="target">
+            <connections>
+                <outlet property="tapView" destination="oW2-rc-78M" id="E06-Wk-GaP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use this fidgeting tool whenever you feel the need to move your body.  Simply start tapping in the box below!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSt-QY-GH5">
+                    <rect key="frame" x="40" y="214.5" width="334" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fidget Tool!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNA-TY-odc">
+                    <rect key="frame" x="72.5" y="144" width="269.5" height="65.5"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="60"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oW2-rc-78M">
+                    <rect key="frame" x="45" y="305.5" width="324" height="350"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="350" id="9Ca-7Z-5rp"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="swipe left to previous and swipe down to leave" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXX-gi-zKj">
+                    <rect key="frame" x="29.5" y="821" width="355" height="21"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jSt-QY-GH5" firstAttribute="top" secondItem="cNA-TY-odc" secondAttribute="bottom" constant="5" id="2u2-yU-5dc"/>
+                <constraint firstAttribute="trailing" secondItem="jSt-QY-GH5" secondAttribute="trailing" constant="40" id="9Pd-QP-30s"/>
+                <constraint firstItem="IXX-gi-zKj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AIr-jV-ZbQ"/>
+                <constraint firstItem="cNA-TY-odc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OIh-Kn-IEc"/>
+                <constraint firstItem="oW2-rc-78M" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Qmz-oZ-U2s"/>
+                <constraint firstItem="oW2-rc-78M" firstAttribute="top" secondItem="jSt-QY-GH5" secondAttribute="bottom" constant="30" id="ZeX-hZ-THu"/>
+                <constraint firstItem="cNA-TY-odc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="e6G-Dw-PEQ"/>
+                <constraint firstItem="jSt-QY-GH5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="eCB-L1-pBM"/>
+                <constraint firstItem="oW2-rc-78M" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="45" id="eD9-ia-Vwr"/>
+                <constraint firstItem="jSt-QY-GH5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="t0o-o5-ETg"/>
+                <constraint firstAttribute="trailing" secondItem="oW2-rc-78M" secondAttribute="trailing" constant="45" id="yTT-ZY-ueF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IXX-gi-zKj" secondAttribute="bottom" constant="20" id="z4z-Oi-c9g"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="145"/>
+        </view>
+    </objects>
+</document>
