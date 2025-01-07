@@ -94,7 +94,6 @@ Below is an overview of the primary files and folders in the **Focus Friend** pr
 - **SocialFeature.swift** – Possibly logic for social interactions, maybe adding friends or sharing progress.  
 - **addFriends.swift** – Allows user to add friends within the app.  
 - **TipsFeature.swift** – Provides study or app usage tips.  
-- **TO ADMISSIONS OFFICERS** – A document or screen dedicated to college admissions officers (possibly an informational letter).  
 
 ---
 
